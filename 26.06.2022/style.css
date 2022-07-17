@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.shopcard {
+	position: relative;
+	max-width: 150px;
+	background-color: silver;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.shopcard_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.shopcard_inner > a {
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+
+.shopcard_inner > a > i {
+	color: #fff;
+	font-size: 23px;
+}
+
+.bag {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	width: 250px;
+	background-color: silver;
+}
+
+.hide {
+	display: none;
+}

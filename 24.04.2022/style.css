@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn {
+	background: transparent;
+	border-radius: 15px;
+	padding: 8px 20px;
+}
+
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.header {
+
+}
+
+.header__top {
+	background: #E5E5E5;
+	padding: 15px 0;
+}
+
+.header__top > ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.header__top > ul > li {
+	margin-right: 20px;
+}
+
+.header__top > ul > li:last-child {
+	margin-right: 0;
+}
+
+.header__top > ul > li > a {
+	color: #000;
+	text-decoration: none;
+}
+
+.header__middle {
+	padding: 20px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.header__middle_items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.header__middle__logo {
+	display: flex;
+	align-items: center;
+}
+
+.header__middle__logo > h1 {
+	margin-left: 15px;
+	text-transform: uppercase;
+	color: #F13C6E;
+}
+
+.header__middle__search {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.header__middle__search > input {
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #E5E5E5;
+	border: none;
+	border-radius: 15px;
+	padding: 8px 15px;
+	width: 220px;
+}
+
+.header__middle__search > img {
+	position: absolute;
+	top: 7px;
+	left: 10px;
+
+}
+
+.header__middle__info > span{
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.header__middle__info > button {
+	border: 2px solid #F13C6E;
+}
+
+.header__bottom {
+	padding: 20px;
+}
+
+.header__bottom nav > ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.header__bottom nav > ul > li {
+	margin-right: 20px;
+}
+
+.header__bottom nav > ul > li:last-child {
+	margin-right: 0;
+}
+
+.header__bottom nav > ul > li > a {
+	text-decoration: none;
+	color:  #000;
+	font-size: 1.1em;
+}
+
+
+.header__banner {
+	background-image: url(img/slider.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: right center;
+}
+
+.header__banner__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+	max-width: 350px;
+	color: #fff;
+}
+
+.header__banner__text > h2 {
+	font-size: 2.2em;
+	margin-bottom: 30px;
+}
+
+.header__banner__text > p {
+	margin-bottom: 30px;
+}
+
+.header__banner__text > button {
+	width: 150px;
+	border: 2px solid #fff;
+	color:  #fff;
+}
